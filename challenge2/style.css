@@ -21,17 +21,14 @@ body{
   box-shadow: 9px 17px 34px 5px rgba(0,0,0,0.46);
   
 }
-
-
 .item{
   width: 100px;  
   height: 100px; 
   margin: 10px;
   border-radius: 50px;
 }
-
 .text{
-  padding: 10px;
+  padding: 20px;
   font-family: sans-serif;
   text-align: center;
 }
