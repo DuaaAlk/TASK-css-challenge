@@ -1,0 +1,39 @@
+body{
+  background-image: url("../assets/pokemon-bg.jpg");
+}
+
+
+.container{
+  background-color: white;
+  border-radius: 30px;
+  width: 300px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  text-align: center;
+
+  -webkit-box-shadow: 9px 17px 34px 5px rgba(0,0,0,0.46); 
+  box-shadow: 9px 17px 34px 5px rgba(0,0,0,0.46);
+  
+}
+
+
+.item{
+  width: 100px;  
+  height: 100px; 
+  margin: 10px;
+  border-radius: 50px;
+}
+
+.text{
+  padding: 10px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+

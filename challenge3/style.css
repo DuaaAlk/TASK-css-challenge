@@ -1,11 +1,26 @@
 /* Add your code in each class */
 .container {
+  background-color: rgb(247, 225, 101);
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  
 }
+
 .head {
+  background-color: peru;
+  color: white;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  padding: 10px;
 }
 
 /* This is a gift - Does not need editing */
